@@ -12,7 +12,9 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return Material(
+
       child: SafeArea(
         child: Container(
           color: Colors.white,

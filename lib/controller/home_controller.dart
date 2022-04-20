@@ -21,6 +21,7 @@ class HomeController extends GetxController{
   
   
   getData() async {
+
     ApiRepo apiRepo=ApiRepo();
     var jsondata=await apiRepo.getApiCall('http://myjson.dit.upm.es/api/bins/2tfp');
 

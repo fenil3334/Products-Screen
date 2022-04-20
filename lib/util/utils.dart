@@ -23,6 +23,14 @@ class Utils{
 
   }
 
+/*
+
+  <service
+  android:name=".tracking.LocationService"
+  android:foregroundServiceType="location"
+  android:exported="false">
+*/
+
 
   static void removeLoader(){
     if(contextdialog!=null) {
